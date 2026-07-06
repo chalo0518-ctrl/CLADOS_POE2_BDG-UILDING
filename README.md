@@ -1,4 +1,4 @@
-# CLADOS POE2 BD Building
+# CLADOS POE2 BD Guilding
 
 Path of Exile 2 BD 指南（公开文档仓）。
 
