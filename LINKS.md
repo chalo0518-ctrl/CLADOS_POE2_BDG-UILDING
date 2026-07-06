@@ -28,5 +28,22 @@ https://github.com/chalo0518-ctrl/CLADOS_POE2_BDG-UILDING
 ## 维护提醒
 
 - 改机制/技能/装备：在私有仓改脚本 → 推送 → GitHub 版自动更新
-- 改 OneDrive 里的内容：只在 OneDrive/Excel 里改，与 GitHub 互不同步
+- 改 OneDrive FAQ：**合并回 GitHub**（见下方）
 - 以后若做阶段 3：可在 OneDrive 版对 FAQ 列开放指定人编辑
+
+## OneDrive → GitHub 合并
+
+在 OneDrive 编辑后：
+
+1. 下载 xlsx → 上传到私有仓 `docs/incoming/onedrive_snapshot.xlsx` 并提交  
+   **或** Actions → **Merge OneDrive to GitHub** → Run workflow  
+2. 脚本提取 **常见问题** 等列 → 写入 `docs/faq/overrides.yaml`  
+3. 重新生成 xlsx 并同步公开仓  
+
+本地命令：
+
+```bash
+python3 scripts/merge_onedrive_to_github.py --file docs/incoming/onedrive_snapshot.xlsx --regenerate
+```
+
+可选：`--mode full` 用 OneDrive 文件整体替换 `docs/Grim_Pillars_Oracle_BD指南.xlsx`。
