@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>CLADOS POE2 BD Building</title>
+    <style>
+      :root {
+        color-scheme: light dark;
+        font-family: "Segoe UI", system-ui, sans-serif;
+        line-height: 1.5;
+      }
+      body {
+        max-width: 42rem;
+        margin: 2rem auto;
+        padding: 0 1rem;
+      }
+      h1 {
+        font-size: 1.35rem;
+        color: #1f4e79;
+      }
+      .actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.75rem;
+        margin: 1.25rem 0;
+      }
+      a.btn {
+        display: inline-block;
+        padding: 0.65rem 1rem;
+        border-radius: 6px;
+        text-decoration: none;
+        font-weight: 600;
+      }
+      a.primary {
+        background: #217346;
+        color: #fff;
+      }
+      a.secondary {
+        background: #d6e4f0;
+        color: #1f4e79;
+      }
+      .note {
+        font-size: 0.92rem;
+        color: #555;
+        border-left: 3px solid #2e75b6;
+        padding-left: 0.75rem;
+        margin: 1rem 0;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>CLADOS POE2 BD Building</h1>
+    <p>版本 <strong>2026-07-06-v2</strong>：各表最右列为「常见问题」（浅绿底）。</p>
+
+    <div class="actions">
+      <a class="btn primary" id="download-xlsx" href="#">下载 xlsx（推荐）</a>
+      <a class="btn secondary" id="open-excel" href="#">Excel 网页版（可能缓存旧版）</a>
+      <a class="btn secondary" href="README.md">说明文档</a>
+    </div>
+
+    <p class="note">
+      <strong>看不到更新？</strong>请优先下载 xlsx 本地打开。打开后 00-目录 第 3 行应显示红色版本提示。
+      文件托管于
+      <a href="https://github.com/chalo0518-ctrl/CLADOS_POE2_BDG-UILDING">CLADOS_POE2_BDG-UILDING</a>。
+    </p>
+
+    <script>
+      const RAW_BASE =
+        "https://raw.githubusercontent.com/chalo0518-ctrl/CLADOS_POE2_BDG-UILDING/main/";
+      const XLSX = "Grim_Pillars_Oracle_BD%E6%8C%87%E5%8D%97.xlsx";
+      const fileUrl = RAW_BASE + XLSX;
+      const officeView =
+        "https://view.officeapps.live.com/op/view.aspx?src=" + encodeURIComponent(fileUrl);
+
+      document.getElementById("open-excel").href = officeView;
+      document.getElementById("download-xlsx").href = fileUrl;
+    </script>
+  </body>
+</html>
