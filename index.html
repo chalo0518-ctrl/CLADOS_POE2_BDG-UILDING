@@ -4,77 +4,44 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>CLADOS POE2 BD Building</title>
+    <meta http-equiv="Cache-Control" content="no-cache" />
     <style>
       :root {
         color-scheme: light dark;
         font-family: "Segoe UI", system-ui, sans-serif;
         line-height: 1.5;
       }
-      body {
-        max-width: 42rem;
-        margin: 2rem auto;
-        padding: 0 1rem;
-      }
-      h1 {
-        font-size: 1.35rem;
-        color: #1f4e79;
-      }
-      .actions {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 0.75rem;
-        margin: 1.25rem 0;
-      }
+      body { max-width: 42rem; margin: 2rem auto; padding: 0 1rem; }
+      h1 { font-size: 1.35rem; color: #1f4e79; }
+      .actions { display: flex; flex-wrap: wrap; gap: 0.75rem; margin: 1.25rem 0; }
       a.btn {
-        display: inline-block;
-        padding: 0.65rem 1rem;
-        border-radius: 6px;
-        text-decoration: none;
-        font-weight: 600;
+        display: inline-block; padding: 0.65rem 1rem; border-radius: 6px;
+        text-decoration: none; font-weight: 600;
       }
-      a.primary {
-        background: #217346;
-        color: #fff;
-      }
-      a.secondary {
-        background: #d6e4f0;
-        color: #1f4e79;
-      }
+      a.primary { background: #217346; color: #fff; }
+      a.secondary { background: #d6e4f0; color: #1f4e79; }
       .note {
-        font-size: 0.92rem;
-        color: #555;
-        border-left: 3px solid #2e75b6;
-        padding-left: 0.75rem;
-        margin: 1rem 0;
+        font-size: 0.92rem; color: #555;
+        border-left: 3px solid #2e75b6; padding-left: 0.75rem; margin: 1rem 0;
       }
+      .meta { font-size: 0.9rem; color: #666; }
     </style>
   </head>
   <body>
     <h1>CLADOS POE2 BD Building</h1>
-    <p>版本 <strong>2026-07-06-v2</strong>：各表最右列为「常见问题」（浅绿底）。</p>
+    <p>版本 <strong>2026-07-06-v3</strong> · 同步 <strong>202607060338</strong></p>
+    <p class="meta">含全部 7 个工作表（00-目录 … 05-常见问题），每次同步整本更新。</p>
 
     <div class="actions">
-      <a class="btn primary" id="download-xlsx" href="#">下载 xlsx（推荐）</a>
-      <a class="btn secondary" id="open-excel" href="#">Excel 网页版（可能缓存旧版）</a>
+      <a class="btn primary" href="https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fraw.githubusercontent.com%2Fchalo0518-ctrl%2FCLADOS_POE2_BDG-UILDING%2Fmain%2FGrim_Pillars_Oracle_BD%25E6%258C%2587%25E5%258D%2597.xlsx%3Fv%3D202607060338">Excel 网页版打开</a>
+      <a class="btn secondary" href="https://raw.githubusercontent.com/chalo0518-ctrl/CLADOS_POE2_BDG-UILDING/main/Grim_Pillars_Oracle_BD%E6%8C%87%E5%8D%97.xlsx?v=202607060338">下载 xlsx</a>
       <a class="btn secondary" href="README.md">说明文档</a>
+      <a class="btn secondary" href="CHANGELOG.md">更新日志</a>
     </div>
 
     <p class="note">
-      <strong>看不到更新？</strong>请优先下载 xlsx 本地打开。打开后 00-目录 第 3 行应显示红色版本提示。
-      文件托管于
-      <a href="https://github.com/chalo0518-ctrl/CLADOS_POE2_BDG-UILDING">CLADOS_POE2_BDG-UILDING</a>。
+      Office 网页版链接已带版本参数 <code>?v=202607060338</code>，避免显示缓存旧版。
+      若仍异常，请用「下载 xlsx」本地打开；00-目录 第 3 行应显示红色版本提示。
     </p>
-
-    <script>
-      const RAW_BASE =
-        "https://raw.githubusercontent.com/chalo0518-ctrl/CLADOS_POE2_BDG-UILDING/main/";
-      const XLSX = "Grim_Pillars_Oracle_BD%E6%8C%87%E5%8D%97.xlsx";
-      const fileUrl = RAW_BASE + XLSX;
-      const officeView =
-        "https://view.officeapps.live.com/op/view.aspx?src=" + encodeURIComponent(fileUrl);
-
-      document.getElementById("open-excel").href = officeView;
-      document.getElementById("download-xlsx").href = fileUrl;
-    </script>
   </body>
 </html>
