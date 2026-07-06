@@ -1,0 +1,32 @@
+# 链接说明
+
+## 你应该分享哪个？
+
+| 场景 | 用哪个链接 |
+|------|------------|
+| 日常发给朋友 **在线看 BD** | **OneDrive**（加载快、权限你已设好） |
+| 展示 **脚本自动更新** 的最新版 | **GitHub Pages 入口** 或 GitHub 同步版 Excel |
+| 对方要 **离线保存** | **下载 xlsx**（GitHub 直链） |
+
+## 链接地址
+
+### 1. OneDrive 主版本（作者可编辑，链接持有人可查看）
+
+https://1drv.ms/x/c/20757cbe6409b71c/IQAuwDWMX5s2Q629DnZOk56CAQjLHfR0KpY-5ODw5Qv3xxA?e=JsUmJO
+
+- 你在 OneDrive 里改的内容在这里
+- GitHub 自动同步 **不会** 更新这个文件
+
+### 2. GitHub Pages 入口（汇总所有按钮）
+
+https://chalo0518-ctrl.github.io/CLADOS_POE2_BDG-UILDING/
+
+### 3. 公开仓库
+
+https://github.com/chalo0518-ctrl/CLADOS_POE2_BDG-UILDING
+
+## 维护提醒
+
+- 改机制/技能/装备：在私有仓改脚本 → 推送 → GitHub 版自动更新
+- 改 OneDrive 里的内容：只在 OneDrive/Excel 里改，与 GitHub 互不同步
+- 以后若做阶段 3：可在 OneDrive 版对 FAQ 列开放指定人编辑
