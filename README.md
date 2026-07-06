@@ -4,6 +4,8 @@ Path of Exile 2 BD 指南（公开文档仓）。
 
 **当前版本：`2026-07-06-v2`** — 各工作表表格最右列为 **常见问题**（浅绿底、深绿表头）
 
+更新记录见 [CHANGELOG.md](./CHANGELOG.md) · 同步时间见 [.sync-timestamp](./.sync-timestamp)
+
 ## 在线阅读
 
 | 方式 | 链接 |
