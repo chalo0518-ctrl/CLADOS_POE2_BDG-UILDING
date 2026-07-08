@@ -4,9 +4,10 @@
 
 | 场景 | 用哪个链接 |
 |------|------------|
-| 日常发给朋友 **在线看 BD** | **OneDrive**（加载快、权限你已设好） |
-| 展示 **脚本自动更新** 的最新版 | **GitHub Pages 入口** 或 GitHub 同步版 Excel |
-| 对方要 **离线保存** | **下载 xlsx**（GitHub 直链） |
+| **寂缠弹 BD 在线看** | [GitHub Pages 入口](https://chalo0518-ctrl.github.io/CLADOS_POE2_BDG-UILDING/) → 寂缠弹 → Excel 网页版 |
+| **Grim Pillars 在线看** | OneDrive（快）或 GitHub Pages 入口 |
+| 展示 **脚本自动更新** 的最新版 | GitHub Pages 入口 |
+| 对方要 **离线保存** | 入口页「下载 xlsx」 |
 
 ## 链接地址
 
@@ -17,9 +18,11 @@ https://1drv.ms/x/c/20757cbe6409b71c/IQAuwDWMX5s2Q629DnZOk56CAQjLHfR0KpY-5ODw5Qv
 - 你在 OneDrive 里改的内容在这里
 - GitHub 自动同步 **不会** 更新这个文件
 
-### 2. GitHub Pages 入口（汇总所有按钮）
+### 2. GitHub Pages 入口（汇总所有 BD）
 
 https://chalo0518-ctrl.github.io/CLADOS_POE2_BDG-UILDING/
+
+含 **Grim Pillars Oracle** 与 **寂缠弹 Blood Mage** 两份指南，均可一键 Excel 网页版打开。
 
 ### 3. 公开仓库
 
