@@ -591,6 +591,7 @@ C.Y. 42 Undecimber
 | 文件 | 说明 |
 |------|------|
 | `docs/瓶与井世界观树状图.xlsx` | ASCII 树状图 Excel（v13） |
+| `docs/瓶与源派系势力总结.xlsx` | 派系总览 · 态度矩阵 · 在线阅读链接 |
 | `docs/faction-network-map.md` | 势力总览 · Mermaid 网状关系图（v18） |
 | `docs/faction-attitude-matrix.md` | **17×17 派系态度大表**（行对列） |
 | `docs/faction-attitude-matrix.csv` | 态度矩阵 CSV（Excel 可开） |
