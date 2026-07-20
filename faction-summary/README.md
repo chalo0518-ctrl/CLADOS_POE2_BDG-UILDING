@@ -1,20 +1,20 @@
 # 《瓶与源》派系势力总结
 
-**版本：`2026-07-20-v18`** · 同步 ID：`202607200823`
+**版本：`2026-07-20-v18`** · 同步 ID：`202607200846`
 
 ## 在线打开
 
 | 方式 | 链接 |
 |------|------|
 | **入口页** | https://chalo0518-ctrl.github.io/CLADOS_POE2_BDG-UILDING/faction-summary/ |
-| **Excel 网页版** | https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fraw.githubusercontent.com%2Fchalo0518-ctrl%2FCLADOS_POE2_BDG-UILDING%2Fmain%2F%25E7%2593%25B6%25E4%25B8%258E%25E6%25BA%2590%25E6%25B4%25BE%25E7%25B3%25BB%25E5%258A%25BF%25E5%258A%259B%25E6%2580%25BB%25E7%25BB%2593.xlsx%3Fv%3D202607200823 |
-| **下载 xlsx** | https://raw.githubusercontent.com/chalo0518-ctrl/CLADOS_POE2_BDG-UILDING/main/%E7%93%B6%E4%B8%8E%E6%BA%90%E6%B4%BE%E7%B3%BB%E5%8A%BF%E5%8A%9B%E6%80%BB%E7%BB%93.xlsx?v=202607200823 |
+| **Excel 网页版** | https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fraw.githubusercontent.com%2Fchalo0518-ctrl%2FCLADOS_POE2_BDG-UILDING%2Fmain%2F%25E7%2593%25B6%25E4%25B8%258E%25E6%25BA%2590%25E6%25B4%25BE%25E7%25B3%25BB%25E5%258A%25BF%25E5%258A%259B%25E6%2580%25BB%25E7%25BB%2593.xlsx%3Fv%3D202607200846 |
+| **下载 xlsx** | https://raw.githubusercontent.com/chalo0518-ctrl/CLADOS_POE2_BDG-UILDING/main/%E7%93%B6%E4%B8%8E%E6%BA%90%E6%B4%BE%E7%B3%BB%E5%8A%BF%E5%8A%9B%E6%80%BB%E7%BB%93.xlsx?v=202607200846 |
 
 ## 关联
 
 - [世界观树状图](https://chalo0518-ctrl.github.io/CLADOS_POE2_BDG-UILDING/worldbuilding/)
-- [派系态度大表](https://raw.githubusercontent.com/chalo0518-ctrl/CLADOS_POE2_BDG-UILDING/main/faction-attitude-matrix.md?v=202607200823)
-- [派系网状图](https://raw.githubusercontent.com/chalo0518-ctrl/CLADOS_POE2_BDG-UILDING/main/faction-network-map.md?v=202607200823)
+- [派系态度大表](https://raw.githubusercontent.com/chalo0518-ctrl/CLADOS_POE2_BDG-UILDING/main/faction-attitude-matrix.md?v=202607200846)
+- [派系网状图](https://raw.githubusercontent.com/chalo0518-ctrl/CLADOS_POE2_BDG-UILDING/main/faction-network-map.md?v=202607200846)
 - [锈钉第一章](https://chalo0518-ctrl.github.io/CLADOS_POE2_BDG-UILDING/rust-nail-ch1/reader.html)
 
 由私有仓 [my-cloud-project](https://github.com/chalo0518-ctrl/my-cloud-project) 自动生成并同步。
