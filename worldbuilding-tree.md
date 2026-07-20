@@ -352,7 +352,6 @@ C.Y. 42 Undecimber
 |------|------|
 | `docs/瓶与井世界观树状图.xlsx` | ASCII 树状图 Excel（v13） |
 | `docs/story-rust-nail-opening.md` | 锈钉视角 · 行尸走肉开篇 · 精品酿民破局 |
-| `docs/story-rust-nail-ch1-draft.md` | 锈钉 · 第一章试写（价码） |
 | `scripts/generate-worldbuilding-excel.py` | 生成脚本 |
 
 ---
